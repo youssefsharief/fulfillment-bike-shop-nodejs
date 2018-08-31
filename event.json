@@ -1,0 +1,41 @@
+{
+    "responseId": "aba3f522-f93f-4128-9070-47834ccea89b",
+    "queryResult": {
+      "queryText": "just a tune up",
+      "action": "MakeAppointment.MakeAppointment-custom",
+      "parameters": {
+        "AppointmentType": "service"
+      },
+      "allRequiredParamsPresent": true,
+      "fulfillmentText": "Okay, we’ll schedule a service for tomorrow, 2018-08-29, at 16:00:00. We’ll see you then.",
+      "fulfillmentMessages": [
+        {
+          "text": {
+            "text": [
+              "Okay, we’ll schedule a service for tomorrow, 2018-08-29, at 16:00:00.  We’ll see you then."
+            ]
+          }
+        }
+      ],
+      "outputContexts": [
+        {
+          "name": "projects/bikeshopsample-2a195/agent/sessions/0f251825-d70c-9b90-3b53-e89c0451fd00/contexts/makeappointment-followup",
+          "lifespanCount": 1,
+          "parameters": {
+            "time": "2018-08-26T16:00:00+02:00",
+            "date": "2018-08-29T17:09:58+02:00",
+            "AppointmentType.original": "tune up",
+            "date.original": "next Wednesday",
+            "AppointmentType": "service",
+            "time.original": "at 4pm"
+          }
+        }
+      ],
+      "intent": {
+        "name": "projects/bikeshopsample-2a195/agent/intents/d91c14d2-4261-430b-94a0-8363973de07e",
+        "displayName": "Make Appointment - custom"
+      },
+      "intentDetectionConfidence": 0.89,
+      "languageCode": "en"
+    }
+  }
